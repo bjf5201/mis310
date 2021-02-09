@@ -1,0 +1,84 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: cornsilk;
+    color:darkslategray;
+}
+
+header { 
+    background-color: #886a6f;
+    color:cadetblue;
+    margin: auto 100px;
+    padding: 25px 100px;
+ }
+
+nav {
+    text-align: center;
+}
+
+main { color: #F9AD81; }
+
+footer { 
+    background-color: #886a6f;
+    color:cadetblue;
+    margin: auto 100px;
+    padding: 5px 100px;
+}
+
+h1 { 
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+.description h2 { font-size: 1em; }
+
+figcaption h3 { font-size: .8em; }
+
+p { 
+    margin: 5px;
+    font-size: 1em;
+ }
+
+a, a:visited { text-decoration: none; }
+
+a { color: darkslategrey; }
+
+a:visited, a:hover, a:active { color: #F9AD81; }
+header h1 { text-align: center; }
+
+footer p { text-align: center; }
+
+
+.index-sketch img, .file-structure img {
+    width: 500px;
+    height: 800px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.container section {
+    margin: 0 auto;
+}
+
+.description p {
+    text-align: center;
+}
+ 
+.container figure {
+    margin: 10px 5px;
+    position: relative;
+    background: #fff;
+    padding: 5px;
+}
