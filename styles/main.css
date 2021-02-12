@@ -1,0 +1,63 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: cornsilk;
+    color:darkslategray;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header { 
+    background-color: #886a6f;
+    color:cadetblue;
+    margin: auto 100px;
+    padding: 25px 100px;
+ }
+
+nav {
+    text-align: center;
+}
+
+main { color: darkslategray; }
+
+footer { 
+    background-color: #886a6f;
+    color:cadetblue;
+    margin: auto 100px;
+    padding: 5px 100px;
+}
+
+h1 { 
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.6em;
+    color: cadetblue;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+
+p { margin: 5px; }
+
+a, a:visited { text-decoration: none; }
+
+a { color: darkslategrey; }
+
+a:hover { color: darkslategrey; }
+
+a:visited, a:active { color: #F9AD81; }
+
+.main-nav ul li { margin: 50px 0; }
+
+header h1 { text-align: center; }
+
+footer p { text-align: center; }
