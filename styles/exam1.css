@@ -1,0 +1,27 @@
+body {
+    background-color: #ffff66;
+}
+
+header,
+nav,
+main,
+footer {
+    background-color: #99ccff;
+    margin: 10px;
+    padding: 10px;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+article {
+    background-color: #ccff99;
+    margin: 10px;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: #ffff66;
+}
