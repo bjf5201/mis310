@@ -1,0 +1,39 @@
+.container {
+    display: grid;
+    grid-template-areas: 
+    "panda animal-col parrot";
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 5px;
+    gap: 5px;
+}
+
+.left-col {
+    grid-area: panda;
+    width: 200px;
+    margin: 20px;
+    top: 100px;
+}
+
+
+.right-col {
+    grid-area: parrot;
+    width: 200px;
+    margin: 20px;
+    top: 100px;
+}
+
+.animal-col {
+    grid-area: animal-col;
+    width: 90%;
+}
+
+
+dt {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #333;
+    color: #000;
+    margin: 1em 0;
+    padding: 10px;
+}
