@@ -1,0 +1,67 @@
+/* Create the gridlines for the mosaic */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
+    grid-template-rows: repeat(5, minmax(200px, 5vw));
+    grid-gap: 10px;
+    gap: 10px;
+}
+
+/* Set all images to automatically take up a single 'cell' of the grid */
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Set the individual images up on their respective gridlines */
+
+[title~=mosaic-a]{
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
+
+[title~=mosaic-b]{
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 1;
+}
+
+[title~=mosaic-c]{
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 1;
+}
+
+[title~=mosaic-d]{
+    grid-column: 4 / span 1;
+    grid-row: 1 / span 2;
+}
+
+[title~=mosaic-e]{
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 2;
+}
+
+[title~=mosaic-f]{
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+}
+
+[title~=mosaic-g]{
+    grid-column: 3 / span 1;
+    grid-row: 3 / span 1;
+}
+
+[title~=mosaic-h]{
+    grid-column: 4 / span 1;
+    grid-row: 3 / span 2;
+}
+
+[title~=mosaic-i]{
+    grid-column: 1 / span 1;
+    grid-row: 5 / span 1;
+}
+
+[title~=mosaic-j]{
+    grid-column: 2 / span 2;
+    grid-row: 4 / span 2;
+}
