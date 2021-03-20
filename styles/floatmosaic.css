@@ -1,0 +1,21 @@
+img {
+    float: left;
+}
+
+/* Float all div sections to the left */
+
+.section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10 {
+    float: left;
+}
+
+/* Give all images within the divs the same margin*/
+
+.section1 img, .section2 img, .section3 img, .section4 img, .section5 img, .section6 img, .section7 img, .section8 img, .section9 img, .section10 img {
+    margin: 5px;
+} 
+
+/* Give .section9 a negative top margin to place it in the row above it*/
+
+.section9 {
+    margin-top: -200px;
+}
