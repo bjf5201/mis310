@@ -3,40 +3,52 @@
     <head>
         <meta charset="utf-8">
         <title>Bethany's Projects</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:title" content="Bethany Fannin">
         <meta property="og:description" content="Bethany Fannin's projects">
         <meta property="og:image" content="images/bethanyfannin.jpg">
         <meta property="og:url" content="http://student.uncw.edu/bjf5201/index.html">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> 
         <link href="styles/main.css" rel="stylesheet"> 
     </head>
 
     <body>
         <header>
-            <h1>Bethany's Projects</h1>
+            <h1 class="h1">Bethany's <span class="second-line">Projects</span></h1>
         </header>
       
         <main>
-            <div class="flex-container">
+            <div class="grid-container">
+            <section class="about">
+                <h2>About</h2>
+                <p>My name is Bethany and I am a junior at UNCW studying Information Technology. I am excited to have recently accepted an internship in the IT department at Live Oak bank for this summer. This semester has been really fun for me, as I have been able to take classes that I am incredibly interested in from this Web Page Development class, to Linux Administration and Business Application Development.</p>
+
+                <p>Please take a look around and check back for updates as I complete more assignments. To check out work I'm doing in my other classes and outside of school, click <a href="http://www.github.com/bjf5201" target="_blank">here</a> for my Github profile.</p>
+            </section>
             <section class="main-nav">
                 <h2>Projects</h2>
-                <nav>
-                    <ul>
-                        <li><a href="assignments/assignment1.html" target="_blank">A Simple HTML Page</a></li>
-                        <li><a href="assignments/assignment2.html" target="_blank">HTML Elements</a></li>
-                        <li><a href="assignments/assignment3.html" target="_blank">CSS Rules</a></li>
-                        <li><a href="assignments/assignment4.html" target="_blank">Project Sketches</a></li>
+                <nav class="grid-list">
+                    <ul class="col1">
+                        <li><a href="assignments/assignment1.html">A Simple HTML Page</a></li>
+                        <li><a href="assignments/assignment2.html">HTML Elements</a></li>
+                        <li><a href="assignments/assignment3.html">CSS Rules</a></li>
+                        <li><a href="assignments/assignment4.html">Project Sketches</a></li>
                         <li><a href="assignments/exam1.html" target="_blank">Exam 1</a></li>
+                    </ul>
+                    <ul class="col2">
                         <li><a href="assignments/floatmosaic.html" target="_blank">CSS Grid</a></li>
                         <li><a href="assignments/assignment6.html" target="_blank">CSS Layouts w/ Positioning</a></li>
                         <li><a href="assignments/gridmosaic.html" target="_blank">Grid Mosaic</a></li>
+                        <li><a href="assignments/index_v1.html" target="_blank">Homepage Version 1.0</a></li>
+                        <li><a href="assignments/sketches.html" target="_blank">Responsive Sketches</a></li>
                     </ul>
                 </nav>
             </section>
-            <section class="image">
-                <img src="images/swing-tilt.png" alt="Image of Bethany">
-            </section>
+            <div class="main-image"> 
+                <div class="image"><img src="images/swing-tilt.png" alt="Image of Bethany"></div>
+            </div>
             </div>
         </main>
         <footer>

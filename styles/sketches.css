@@ -13,17 +13,13 @@ body {
     grid-auto-rows: minmax(100px, auto);
     justify-content: center;
     align-items: center;
-    background-image: url(../images/swing-tilt.png);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 header { 
     background-color: #886a6f;
     text-align: center;
     margin: 0;
-    height: 6em;
+    height: 10em;
     width: 100%;  
  }
 
@@ -71,31 +67,38 @@ a:visited, a:active { color: #F9AD81; }
 
 .main-nav ul li { margin: 50px 0; }
 
-.h1 { text-align: center; }
+header h1 { text-align: center; }
 
 footer p { text-align: center; }
 
-.main-image {
-    display: none;
+figcaption h3 { font-size: 0.8em}
+
+figure {
+    margin: 10px 5px;
+    position: relative;
+    background: #fff;
+    padding: 5px;
 }
 
-.image {
-    display: none;
+figure img {
+    width: 100%;
+    height: 100%;
 }
 
-.main-nav, .about {
-    text-align: center;
+
+.sketch-sm {
     grid-column: 2 / 4;
-    background-color: rgba(106, 111, 136, 0.6);
+    grid-row: 2 / 4;
 }
 
-.about p {
-    color: #F9AD81;
-    background: dimgrey;
+.sketch-med {
+    grid-column: 2 / 4;
+    grid-row: 4 / 6;
 }
 
-.about a {
-    color: #886a6f;
+.sketch-lg {
+    grid-column: 2 / 4;
+    grid-row: 6 / 8;
 }
 
 /* CSS for smallest devices */
